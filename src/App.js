@@ -152,7 +152,7 @@ export default function App() {
                 svg={filterSvg()}
                 text="Filter By Cuisine"
                 onClick={() => setShowModal(true)}
-                active={showModal}
+                active={filterByCuisine.length > 0}
               />
               <FilterButton
                 svg={ratingSvg()}

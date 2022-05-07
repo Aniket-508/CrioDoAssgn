@@ -52,7 +52,7 @@ export default function RestoCard({ data }) {
           </p>
           <div className="flex items-center">
             <p>₹{costPerPerson} per person</p>
-            <span className="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
+            <span className="w-1 h-1 mx-1.5 bg-gray-500 rounded-full"></span>
             <p>{convertMinsToHrsMins(data.deliveryTimeInMinutes)}</p>
           </div>
           {data.promoted ? <p className="text-gray-400">Promoted</p> : null}
